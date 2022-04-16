@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 903.9px;
+
+  position: relative;
+  
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  font-family: red hat display, arial;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: 100;
+}
+
+.container0 {
+  position: absolute;
+  z-index: 600;
+  left: 534px;
+  top: 104px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: white;
+  width: 450px;
+  border-radius: 18px;
+  margin-bottom: 104px;
+}
+
+.image {
+  border-radius: 18px 18px 0 0;
+  object-fit: cover;
+  height: 218px;
+  width: 450px;
+}
+
+.text {
+  width: 350px;
+  text-align: center;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 46px 0 17px 0;
+} 
+
+.presentation {
+  line-height: 26px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  width: 353px;
+  height: 99px;
+  margin-top: 19px;
+  border-radius: 10px;
+}
+
+.music-icon {
+  margin: 4px 20px 0 23px;
+}
+
+.lenght-price {
+  margin-right: 93px;
+}
+
+.lenght {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 11px;
+  font-size: 16.3px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-size: 16.3px;
+  margin-top: 8px;
+}
+
+.change-link {
+  font-size: 14px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.change-link:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+  text-align: center;
+}
+
+.proceed-button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: white;
+  font-weight: 700;
+  width: 354px;
+  height: 50.5px;
+  border-radius: 12px;
+  font-size: 15.5px;
+  font-family: red hat display, arial;
+  cursor: pointer;
+  margin-bottom: 31px;
+  box-shadow: 2px 20px 20px rgba(10, 0, 152, 0.15);
+}
+
+.proceed-button:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-link {
+  margin-bottom: 48px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 15.5px;
+  cursor: pointer;
+}
+
+.cancel-link:hover {
+  color: hsl(223, 47%, 23%);
+}
